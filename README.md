@@ -1,4 +1,6 @@
 # Business Innovation With Networks
 
 
-Lecture 1.  [Introduction to Networks](https://imwan.github.io/NetworkCourse/1introduction)
+1. Lecture 1.  [Introduction to Networks](https://imwan.github.io/NetworkCourse/1introduction)
+
+2. Lecture 2.  [Introduction to Networks](https://imwan.github.io/NetworkCourse/2graphtheory)
