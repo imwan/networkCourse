@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>1. Introduction</title>
+		<title>2. Graph Theory</title>
 
 
 		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
@@ -29,6 +29,7 @@
 			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
+        <script src="lib/js/p5/p5.min.js"></script>
 
 		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
@@ -42,14 +43,23 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-					<h2>Lecture 1.</h2>
-                    <h2>Introduction to Networking</h2>
+					<h2>Lecture 2.</h2>
+                    <h2>Basics of Graph Theory</h2>
 					
 					<p>
 						<small>Created by <a href="https://imwan.github.io">Xuhu Wan</a> / <a href="http://twitter.com/neuron">@tigerwan2008</a></small>
 					</p>
 				</section>
 
+                <section>
+					<h2>Lecture 2.</h2>
+                    <h2>Basics of Graph Theory</h2>
+					<div id="viz2"></div>
+					<p>
+						<small>Created by <a href="https://imwan.github.io">Xuhu Wan</a> / <a href="http://twitter.com/neuron">@tigerwan2008</a></small>
+					</p>
+				</section>
+                
                 
                 <section id="fragement">
 					<h2>Growing Interest in Networks</h2>
@@ -127,6 +137,7 @@ the Federal Funds Market”. </p>
 
 		<script src="lib/js/head.min.js"></script>
 		<script src="js/reveal.js"></script>
+        <script src="lib/js/viz2.js"></script>>
 
 		<script>
 
@@ -137,7 +148,6 @@ the Federal Funds Market”. </p>
 				history: true,
 				center: true,
                 margin:0.00,
-
 				
 
     
